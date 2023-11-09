@@ -2,8 +2,80 @@
 <html lang="en">
 <head>
     <title>Happy's Software Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    
+    <nav id="desktop-nav">
+        <div class="logo">Happy Patel</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="hero-picture">
+            <img src="./images/profilePhoto.jpg" alt="Happy Patel Profile Portfolio"/>
+        </div>
+        <div class="hero-text">
+            <p class="hero-text-p1">Hello, I'm</p>
+            <h1 class="title">Happy Patel</h1>
+            <p class="hero-text-p2">Full-Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onClick="window.open('./images/Happy_Patel_Resume.pdf')">View Resume</button>
+                <button class="btn btn-color-1" onClick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./images/LinkedIn.png" alt="LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/happy-patel1212/'"/>
+                <img src="./images/GitHub.png" alt="GitHub Profile" class="icon" onclick="location.href='https://github.com/happy1203'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="hero-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <h3>Experience</h3>
+                <p>2+ years <br />Full-Stack Development</p>
+              </div>
+              <div class="details-container">
+                <h3>Education</h3>
+                <p>Bachelor of Computer Science<br />Bachelor of Business Administration</p>
+              </div>
+            </div>
+            <p class="about-me-text-title">
+                Hello! I'm Happy, a developer based in Toronto.
+                <br/>
+                <p class="about-me-text-p1">
+                    I am passionate about creating innovative software 
+                    solutions that make a meaningful impact.
+                </p>
+                <div class="about-me-text-container">
+                    <p class="about-me-text-p2">
+                        Currently, I am pursuing <strong>Computer Science and Business Administration</strong> from the 
+                        <strong>Univeristy of Waterloo and Wilfrid Laurier University.</strong>
+                    </p>
+                    <p class="about-me-text-p2">
+                        Over the years I have gained a deep understanding in <strong>cloud computing, web development, cybersecurity, and machine learning</strong>! 
+                    </p>
+                    <p class="about-me-text-p2">
+                        During my <strong>previous co-op</strong> experiences at <strong>Magnet Forensics and SinaLite</strong>, I gained valuable experience as a <strong>full-stack developer</strong>.
+                    </p>
+                </div>
+                <p class="about-me-text-p3"><strong>Hire me?</strong> Check out my skills and projects down below!</p>
+            </p>
+          </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div>SKILLS AND Experience</div>
+    </section>
 </body>
 </html>
